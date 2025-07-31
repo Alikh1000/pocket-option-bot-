@@ -1,4 +1,4 @@
-# ربات سیگنال‌دهی Pocket Option
+# 🤖 ربات سیگنال‌دهی Pocket Option
 
 ربات هوشمند تحلیل بازارهای مالی با قابلیت کار در حالت آفلاین
 
@@ -9,14 +9,10 @@
 - 📲 کارکرد در حالت آفلاین و آنلاین
 - 💾 ذخیره‌سازی خودکار داده‌ها
 
-## راه‌اندازی
+## راه‌اندازی سریع
 
-### پیش‌نیازها
-- Python 3.8 یا بالاتر
-- حساب Alpha Vantage (اختیاری)
-
-### نصب
 ```bash
-git clone https://github.com/your-username/pocket-option-bot.git
-cd pocket-option-bot
+git clone https://github.com/Alikh1000/pocket-option-bot-.git
+cd pocket-option-bot-
 pip install -r requirements.txt
+python bot.py
