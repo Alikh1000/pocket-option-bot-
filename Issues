@@ -1,0 +1,32 @@
+
+#### مرحله 3: آپلود پروژه به GitHub
+
+##### روش 1: از طریق مرورگر
+1. به مخزن جدید ایجاد شده بروید
+2. روی "Add file" > "Upload files" کلیک کنید
+3. فایل‌های زیر را آپلود کنید:
+   - config.py
+   - bot.py
+   - requirements.txt
+   - README.md
+
+##### روش 2: از طریق Git (ترجیحی)
+```bash
+# نصب Git روی ترمینال (Termux)
+pkg install git
+
+# تنظیم اطلاعات کاربر
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# کلون مخزن
+git clone https://github.com/your-username/pocket-option-bot.git
+cd pocket-option-bot
+
+# کپی فایل‌ها به دایرکتوری
+# (فایل‌های config.py, bot.py, requirements.txt, README.md را ایجاد کنید)
+
+# اضافه کردن فایل‌ها به Git
+git add .
+git commit -m "Initial commit"
+git push origin main
