@@ -15,6 +15,5 @@ SYMBOLS = {
     "MAIN": ["BTC/USD", "ETH/USD", "GOLD"]
 }
 
-# مسیر ذخیره‌سازی کش (به صورت نسبی)
 OFFLINE_CACHE_FILE = "pocket_cache.pkl"
 CACHE_DURATION = 86400  # 24 ساعت
