@@ -1,3 +1,4 @@
+nano config.py
 API_KEYS = {
     "alpha_vantage": [
         "2EA6SDMJMTDIBTZ6",
